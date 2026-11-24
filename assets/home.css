@@ -1,0 +1,146 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* HERO SECTION */
+.hero {
+  height: 100vh;
+  background: linear-gradient(135deg, #111, #b41b00);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 0 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero h1 span {
+  color: #ff4b2b;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  background: #ff4b2b;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #e63e1f;
+}
+
+/* ABOUT SECTION */
+.about {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin: 2rem auto;
+  max-width: 900px;
+  border-radius: 8px;
+}
+
+.about h2 {
+  color: #ff4b2b;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  color: #555;
+  line-height: 1.6;
+}
+
+/* FEATURES SECTION */
+.features {
+  padding: 3rem 2rem;
+  background: #f9f9f9;
+}
+
+.features h2 {
+  text-align: center;
+  color: #111;
+  margin-bottom: 2rem;
+}
+
+.features-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.feature-box {
+  background: #fff;
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+}
+
+.feature-box h3 {
+  color: #ff4b2b;
+  margin-bottom: 1rem;
+}
+
+.feature-box p {
+  color: #666;
+}
+
+/* CONTACT BANNER */
+.contact-banner {
+  text-align: center;
+  padding: 3rem 2rem;
+  background: linear-gradient(135deg, #111, #ff4b2b);
+  color: #fff;
+  border-radius: 8px;
+  margin: 3rem 2rem;
+}
+
+.contact-banner h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contact-banner p {
+  opacity: 0.9;
+  margin-bottom: 1.5rem;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background: #111;
+  color: #fff;
+}
